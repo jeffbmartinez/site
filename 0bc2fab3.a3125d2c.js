@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{97:function(i){i.exports=JSON.parse('{"id":"installation","title":"Installation","sidebar_label":"Installation","description":"```bash","source":"@site/docs/installation.md","permalink":"/docs/installation","sidebar":"docs","next":{"title":"Editor Configuration","permalink":"/docs/editor-configuration"}}')}}]);

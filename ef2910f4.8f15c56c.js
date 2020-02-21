@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[49],{137:function(o){o.exports=JSON.parse('{"id":"introduction","title":"Intro","sidebar_label":"Intro","description":"## What is Electron React Boilerplate?","source":"@site/docs/introduction.md","permalink":"/docs/introduction"}')}}]);
