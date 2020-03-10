@@ -4,7 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width">
 <meta name="generator" content="Docusaurus">
-
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-127797742-1","auto"),ga("send","pageview")</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127797742-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-127797742-1")</script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-127797742-1","auto"),ga("send","pageview")</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127797742-1"></script>
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-127797742-1")</script>
 
 <title data-react-helmet="true">Styling | Electron React Boilerplate</title>
 
@@ -16,25 +29,25 @@
 <link rel="stylesheet" href="/styles.a09d3973.css">
 
 
-<link rel="preload" href="/styles.dc31c5d8.js" as="script">
+<link rel="preload" href="/styles.2df38565.js" as="script">
 
-<link rel="preload" href="/runtime~main.a3546293.js" as="script">
+<link rel="preload" href="/runtime~main.2efb4c08.js" as="script">
 
-<link rel="preload" href="/main.86ae27a6.js" as="script">
+<link rel="preload" href="/main.a4f62058.js" as="script">
 
-<link rel="preload" href="/1.1277bf58.js" as="script">
+<link rel="preload" href="/1.77b24a15.js" as="script">
 
-<link rel="preload" href="/2.c2a94921.js" as="script">
+<link rel="preload" href="/2.35bb65b9.js" as="script">
 
-<link rel="preload" href="/3.4d06920e.js" as="script">
+<link rel="preload" href="/3.2a6d1712.js" as="script">
 
-<link rel="preload" href="/1be78505.69330143.js" as="script">
+<link rel="preload" href="/1be78505.f3f011c9.js" as="script">
 
-<link rel="preload" href="/20ac7829.b4cd4978.js" as="script">
+<link rel="preload" href="/20ac7829.255d9d52.js" as="script">
 
-<link rel="preload" href="/17896441.ca27a5da.js" as="script">
+<link rel="preload" href="/17896441.604936f1.js" as="script">
 
-<link rel="preload" href="/a12f1870.9b1aa79d.js" as="script">
+<link rel="preload" href="/a12f1870.8dd97b29.js" as="script">
 
 </head>
 <body>
@@ -44,25 +57,25 @@
 css-modules loader. e.g. <code>app.global.css</code></p><p>If you want to import global css libraries (like <code>bootstrap</code>), you can just write the following code in <code>.global.css</code>:</p><div class="mdxCodeBlock_iHAB"><pre class="prism-code language-css codeBlock_19pQ"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1BYj">Copy</button><code class="codeBlockLines_2n9r" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token atrule rule">@import</span><span class="token atrule"> </span><span class="token atrule string" style="color:rgb(195, 232, 141)">&#x27;~bootstrap/dist/css/bootstrap.css&#x27;</span><span class="token atrule punctuation" style="color:rgb(199, 146, 234)">;</span></div></code></pre></div><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="how-to-import-css-file-from-node_modules"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#how-to-import-css-file-from-node_modules" title="Direct link to heading">#</a>How to import CSS file from <code>node_modules</code></h2><p>Say, you want to import css file from font-awesome module. Use following syntax</p><div class="mdxCodeBlock_iHAB"><pre class="prism-code language-css codeBlock_19pQ"><button type="button" aria-label="Copy code to clipboard" class="copyButton_1BYj">Copy</button><code class="codeBlockLines_2n9r" style="color:#bfc7d5;background-color:#292d3e"><div class="token-line" style="color:#bfc7d5"><span class="token atrule rule">@import</span><span class="token atrule"> </span><span class="token atrule string" style="color:rgb(195, 232, 141)">&quot;~font-awesome/css/font-awesome.css&quot;</span><span class="token atrule punctuation" style="color:rgb(199, 146, 234)">;</span></div></code></pre></div><p>Note the tilde <code>~</code> placed before module name.</p><p>Similar syntax is used for SCSS too.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="examples"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#examples" title="Direct link to heading">#</a>Examples</h3><ul><li><a href="https://github.com/falcon-client/falcon/blob/master/app/app.global.css#L1%5BFalcon">https://github.com/falcon-client/falcon/blob/master/app/app.global.css#L1[Falcon</a> Client]</li></ul><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="further-readings"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#further-readings" title="Direct link to heading">#</a>Further Readings</h3><ul><li><a href="https://github.com/chentsulin/electron-react-boilerplate/issues/1087%5BCannot">https://github.com/chentsulin/electron-react-boilerplate/issues/1087[Cannot</a> import CSS? #1087]</li><li><a href="https://github.com/chentsulin/electron-react-boilerplate/issues/1076%5BImported">https://github.com/chentsulin/electron-react-boilerplate/issues/1076[Imported</a> (not global) css is not working. #1076]</li></ul><p>== How to use SCSS</p><p>Use following example project to learn how to migrate from CSS to SCSS</p><ul><li><a href="https://github.com/amilajack/popcorn-time-desktop%5BPopcorn">https://github.com/amilajack/popcorn-time-desktop[Popcorn</a> Time Desktop]</li><li><a href="https://github.com/amilajack/erb-bootstrap-example%5BERB">https://github.com/amilajack/erb-bootstrap-example[ERB</a> Bootstrap Example]</li></ul><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="further-readings-1"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#further-readings-1" title="Direct link to heading">#</a>Further Readings</h3><ul><li><a href="https://github.com/chentsulin/electron-react-boilerplate/issues/984%5BHow">https://github.com/chentsulin/electron-react-boilerplate/issues/984[How</a> to remove css-modules ? #984] </li></ul><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="where-to-put-images"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#where-to-put-images" title="Direct link to heading">#</a>Where to put images</h2><p><code>./app/img</code> is the recommended folder.</p><p>Do not use <code>resources</code> folder. It is actually intended for build assets.</p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="example"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#example" title="Direct link to heading">#</a>Example</h3><ul><li><a href="https://github.com/amilajack/popcorn-time-desktop/tree/master/app/images%5BExample">https://github.com/amilajack/popcorn-time-desktop/tree/master/app/images[Example</a> of <code>./app/img</code> folder]</li><li><a href="https://github.com/amilajack/popcorn-time-desktop/blob/master/app/components/card/Card.js#L10-L11%5BUsage">https://github.com/amilajack/popcorn-time-desktop/blob/master/app/components/card/Card.js#L10-L11[Usage</a> of image in <code>./app/img</code> folder]</li></ul><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="further-readings-2"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#further-readings-2" title="Direct link to heading">#</a>Further Readings</h3><ul><li><a href="https://github.com/chentsulin/electron-react-boilerplate/issues/951%5Bbackground-image">https://github.com/chentsulin/electron-react-boilerplate/issues/951[background-image</a> from resources #951]</li></ul></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#css-modules" class="contents__link">CSS Modules</a></li><li><a href="#how-to-import-css-file-from-node_modules" class="contents__link">How to import CSS file from <code>node_modules</code></a><ul><li><a href="#examples" class="contents__link">Examples</a></li><li><a href="#further-readings" class="contents__link">Further Readings</a></li><li><a href="#further-readings-1" class="contents__link">Further Readings</a></li></ul></li><li><a href="#where-to-put-images" class="contents__link">Where to put images</a><ul><li><a href="#example" class="contents__link">Example</a></li><li><a href="#further-readings-2" class="contents__link">Further Readings</a></li></ul></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/installation">Getting Started</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/app-showcase">Showcase</a></li><li class="footer__item"><a class="footer__link-item" to="https://spectrum.chat/electron-react-blpt" href="https://spectrum.chat/electron-react-blpt">Community Chat</a></li><li class="footer__item"><a class="footer__link-item" to="https://twitter.com/eBoilerplate" href="https://twitter.com/eBoilerplate">Twitter</a></li><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" to="https://github.com/electron-react-boilerplate/electron-react-boilerplate" href="https://github.com/electron-react-boilerplate/electron-react-boilerplate">GitHub</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><img class="footer__logo" alt="ERB Logo" src="/logo/logo.svg"></div><div>Copyright © 2020 Electron React Boilerplate</div></div></div></footer>
 </div>
 
-<script src="/styles.dc31c5d8.js"></script>
+<script src="/styles.2df38565.js"></script>
 
-<script src="/runtime~main.a3546293.js"></script>
+<script src="/runtime~main.2efb4c08.js"></script>
 
-<script src="/main.86ae27a6.js"></script>
+<script src="/main.a4f62058.js"></script>
 
-<script src="/1.1277bf58.js"></script>
+<script src="/1.77b24a15.js"></script>
 
-<script src="/2.c2a94921.js"></script>
+<script src="/2.35bb65b9.js"></script>
 
-<script src="/3.4d06920e.js"></script>
+<script src="/3.2a6d1712.js"></script>
 
-<script src="/1be78505.69330143.js"></script>
+<script src="/1be78505.f3f011c9.js"></script>
 
-<script src="/20ac7829.b4cd4978.js"></script>
+<script src="/20ac7829.255d9d52.js"></script>
 
-<script src="/17896441.ca27a5da.js"></script>
+<script src="/17896441.604936f1.js"></script>
 
-<script src="/a12f1870.9b1aa79d.js"></script>
+<script src="/a12f1870.8dd97b29.js"></script>
 
 
 </body>
