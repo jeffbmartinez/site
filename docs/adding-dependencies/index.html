@@ -29,25 +29,25 @@
 <link rel="stylesheet" href="/styles.a09d3973.css">
 
 
-<link rel="preload" href="/styles.2df38565.js" as="script">
+<link rel="preload" href="/styles.d1b41b54.js" as="script">
 
-<link rel="preload" href="/runtime~main.2efb4c08.js" as="script">
+<link rel="preload" href="/runtime~main.0c3bba7d.js" as="script">
 
-<link rel="preload" href="/main.a4f62058.js" as="script">
+<link rel="preload" href="/main.6b1e9680.js" as="script">
 
-<link rel="preload" href="/1.77b24a15.js" as="script">
+<link rel="preload" href="/1.7c10ce36.js" as="script">
 
-<link rel="preload" href="/2.35bb65b9.js" as="script">
+<link rel="preload" href="/2.1bf413fa.js" as="script">
 
-<link rel="preload" href="/3.2a6d1712.js" as="script">
+<link rel="preload" href="/3.48cdcc24.js" as="script">
 
-<link rel="preload" href="/1be78505.f3f011c9.js" as="script">
+<link rel="preload" href="/1be78505.1182a894.js" as="script">
 
-<link rel="preload" href="/20ac7829.255d9d52.js" as="script">
+<link rel="preload" href="/20ac7829.aa064d03.js" as="script">
 
-<link rel="preload" href="/17896441.604936f1.js" as="script">
+<link rel="preload" href="/17896441.371a94b2.js" as="script">
 
-<link rel="preload" href="/872937eb.7891a581.js" as="script">
+<link rel="preload" href="/872937eb.81ab6543.js" as="script">
 
 </head>
 <body>
@@ -57,25 +57,25 @@
 <a href="http://www.material-ui.com/">material-ui</a> to reuse react UI components.</p><p>⚠️ Please read the following section before installing any dependencies ⚠️</p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="module-structure"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#module-structure" title="Direct link to heading">#</a>Module Structure</h3><p>This boilerplate uses a <a href="https://github.com/electron-userland/electron-builder/wiki/Two-package.json-Structure">two package.json structure</a>. This means, you will have two <code>package.json</code> files.</p><ol><li><code>./package.json</code> in the root of your project</li><li><code>./app/package.json</code> inside <code>app</code> folder</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="which-packagejson-file-to-use"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#which-packagejson-file-to-use" title="Direct link to heading">#</a>Which <code>package.json</code> file to use</h3><p><strong>Rule of thumb</strong> is: all modules go into <code>./package.json</code> except native modules, or modules with native dependencies or peer dependencies. Native modules, or packages with native dependencies should go into <code>./app/package.json</code>.</p><ol><li>If the module is native to a platform (like node-postgres), it should be listed under <code>dependencies</code> in <code>./app/package.json</code></li><li>If a module is <code>import</code>ed by another module, include it in <code>dependencies</code> in <code>./package.json</code>. See <a href="https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md">this ESLint rule</a>. Examples of such modules are <code>material-ui</code>, <code>redux-form</code>, and <code>moment</code>.</li><li>Otherwise, modules used for building, testing and debugging should be included in <code>devDependencies</code> in <code>./package.json</code>.</li></ol><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="further-readings"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#further-readings" title="Direct link to heading">#</a>Further Readings</h3><p>See the wiki page, <a href="https://github.com/electron-react-boilerplate/electron-react-boilerplate/wiki/Module-Structure----Two-package.json-Structure">Module Structure — Two package.json Structure</a> to understand what is native module, the rationale behind two package.json structure and more.</p><p>For an example app that uses this boilerplate and packages native dependencies, see <a href="https://github.com/amilajack/erb-sqlite-example">erb-sqlite-example</a>.</p></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"></div><div class="pagination-nav__item pagination-nav__item--next"></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#how-to-add-modules-to-the-project" class="contents__link">How to add modules to the project</a><ul><li><a href="#module-structure" class="contents__link">Module Structure</a></li><li><a href="#which-packagejson-file-to-use" class="contents__link">Which <code>package.json</code> file to use</a></li><li><a href="#further-readings" class="contents__link">Further Readings</a></li></ul></li></ul></div></div></div></div></div></main></div></div><footer class="footer"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">Docs</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/installation">Getting Started</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Community</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" href="/docs/app-showcase">Showcase</a></li><li class="footer__item"><a class="footer__link-item" to="https://spectrum.chat/electron-react-blpt" href="https://spectrum.chat/electron-react-blpt">Community Chat</a></li><li class="footer__item"><a class="footer__link-item" to="https://twitter.com/eBoilerplate" href="https://twitter.com/eBoilerplate">Twitter</a></li><li class="footer__item"><a class="footer__link-item" href="/blog">Blog</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">More</h4><ul class="footer__items"><li class="footer__item"><a class="footer__link-item" to="https://github.com/electron-react-boilerplate/electron-react-boilerplate" href="https://github.com/electron-react-boilerplate/electron-react-boilerplate">GitHub</a></li></ul></div></div><div class="text--center"><div class="margin-bottom--sm"><img class="footer__logo" alt="ERB Logo" src="/logo/logo.svg"></div><div>Copyright © 2020 Electron React Boilerplate</div></div></div></footer>
 </div>
 
-<script src="/styles.2df38565.js"></script>
+<script src="/styles.d1b41b54.js"></script>
 
-<script src="/runtime~main.2efb4c08.js"></script>
+<script src="/runtime~main.0c3bba7d.js"></script>
 
-<script src="/main.a4f62058.js"></script>
+<script src="/main.6b1e9680.js"></script>
 
-<script src="/1.77b24a15.js"></script>
+<script src="/1.7c10ce36.js"></script>
 
-<script src="/2.35bb65b9.js"></script>
+<script src="/2.1bf413fa.js"></script>
 
-<script src="/3.2a6d1712.js"></script>
+<script src="/3.48cdcc24.js"></script>
 
-<script src="/1be78505.f3f011c9.js"></script>
+<script src="/1be78505.1182a894.js"></script>
 
-<script src="/20ac7829.255d9d52.js"></script>
+<script src="/20ac7829.aa064d03.js"></script>
 
-<script src="/17896441.604936f1.js"></script>
+<script src="/17896441.371a94b2.js"></script>
 
-<script src="/872937eb.7891a581.js"></script>
+<script src="/872937eb.81ab6543.js"></script>
 
 
 </body>
